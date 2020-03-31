@@ -1,0 +1,52 @@
+baseURL = "https://goremoteconf.com/"
+languageCode = "en-US"
+title = "Go Remote Conf"
+theme = "goremoteconf"
+enableRobotsTXT = true
+googleAnalytics = ""
+
+[sitemap]
+  changefreq = "monthly"
+  filename = "sitemap.xml"
+  priority = 0.5
+
+[params]
+    defaultDescription = "Put something interesting here :)"
+
+[[menu.main]]
+    name = "Home"
+    url = "/"
+    identifier = "main"
+    weight = 100
+
+[[menu.main]]
+    name = "Schedule"
+    url = "/schedule"
+    identifier = "schedule"
+    weight = 200
+
+[[menu.main]]
+    name = "Speakers"
+    url = "/speakers"
+    identifier = "speakers"
+    weight = 300
+
+
+[[menu.main]]
+    name = "Sponsors"
+    url = "/sponsors"
+    identifier = "sponsors"
+    weight = 400
+
+
+[[menu.main]]
+    name = "COC"
+    url = "/coc"
+    identifier = "coc"
+    weight = 500
+
+## Social Accounts
+[params.social]
+	twitter = ""
+    github = ""
+    email = "contact@friendsofgo.tech"

@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en-US">
+
+{{ partial "head.html" . }}
+
+<body class="stretched">
+<div id="wrapper" class="clearfix">
+    <header id="header" class="full-header">
+        {{ partial "header.html" . }}
+    </header>
+    <section id="slider" class="slider-element slider-parallax slider-parallax-visible" data-height-xl="500"
+             data-height-lg="400" data-height-md="300" data-height-sm="250" data-height-xs="200"
+             style="background: url('/images/splash.png') 0% 0% / cover no-repeat; background-position:center;">
+    </section>
+    <section id="content">
+        <div class="content-wrap">
+            {{ .Content }}
+        </div>
+    </section>
+    <footer id="footer" class="dark">
+        {{ partial "scripts.html" . }}
+    </footer>
+</div>
+</body>
+</html>
