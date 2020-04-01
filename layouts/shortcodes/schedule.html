@@ -1,0 +1,17 @@
+{{ range .Site.Data.talks }}
+    {{ if eq .type "organization"}}
+<li class="organization">
+    <span class="schedule-hour">{{ .hour }}</span>
+    <span class="schedule-title">{{ .title }}</span>
+</li>
+    {{ else if eq .type "talk"}}
+<li>
+    <span class="schedule-hour">{{ .hour }}</span>
+    <div class="schedule-talk">
+        <img src="{{ .image }}" alt="{{ .title }}">
+        <h4 class="schedule-name">{{ .title }}</h4>
+        <p class="schedule-content">{{ .talk | safeHTML }}</p>
+    </div>
+</li>
+    {{ end }}
+{{ end }}

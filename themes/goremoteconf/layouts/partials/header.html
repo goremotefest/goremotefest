@@ -8,18 +8,8 @@
                 {{ $current := . }}
                 {{ $currentParent := $current.Param "parent_page" }}
                 {{ range .Site.Menus.main }}
-                <li
-                        class="{{ if .HasChildren}}sub-menu{{ end }} {{ if eq $current.RelPermalink .URL | or (eq $currentParent .Identifier) }} current {{end}}">
-                    <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-                    {{ if .HasChildren }}
-                    <ul style="display: none;">
-                        {{ range .Children}}
-                        <li class="{{ if eq $current.Title .Name }}current{{ end }}">
-                            <a href="{{ .URL }}" title="{{ .Name }}">{{ .Name }}</a>
-                        </li>
-                        {{ end }}
-                    </ul>
-                    {{ end }}
+                <li>
+                    <a href="{{ .URL }}" title="{{ .Name }}" data-href="#section-{{ .Identifier }}">{{ .Name }}</a>
                 </li>
                 {{ end }}
             </ul>

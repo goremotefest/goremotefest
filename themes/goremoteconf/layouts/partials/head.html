@@ -57,6 +57,7 @@
     <link
         href="https://fonts.googleapis.com/css?family=Lato:300,400,400i,700|Raleway:300,400,500,600,700|Crete+Round:400i"
         rel="stylesheet" type="text/css" />
+    {{ $cssVersion := time.Now | md5 }}
     <link rel="stylesheet" href="{{ "css/bootstrap.css" | relURL }}" type="text/css" />
     <link rel="stylesheet" href="{{ "css/style.css" | relURL }}" type="text/css" />
     <link rel="stylesheet" href="{{ "css/dark.css" | relURL }}" type="text/css" />
@@ -65,8 +66,8 @@
     <link rel="stylesheet" href="{{ "css/magnific-popup.css" | relURL }}" type="text/css" />
     <link rel="stylesheet" href="{{ "css/responsive.css" | relURL }}" type="text/css" />
     <link rel="stylesheet" href="{{ "css/theme.css" | relURL }}" type="text/css" />
-    <link rel="stylesheet" href="{{ "css/colors.css" | relURL }}" type="text/css" />
-    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}" type="text/css" />
+    <link rel="stylesheet" href="{{ "css/colors.css" | relURL }}?v={{ $cssVersion }}" type="text/css" />
+    <link rel="stylesheet" href="{{ "css/custom.css" | relURL }}?v={{ $cssVersion }}" type="text/css" />
 
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <!--[if lt IE 9]>
