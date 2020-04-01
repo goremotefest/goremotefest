@@ -1,9 +1,13 @@
-baseURL = "https://goremoteconf.com/"
+baseURL = "https://goremotefest.com/"
 languageCode = "en-US"
-title = "Go Remote Conf"
+title = "Go Remote Fest"
 theme = "goremoteconf"
 enableRobotsTXT = true
 googleAnalytics = ""
+
+spearkes = false
+schedule = false
+sponsors = false
 
 [sitemap]
   changefreq = "monthly"
@@ -19,33 +23,30 @@ googleAnalytics = ""
     identifier = "home"
     weight = 100
 
-
-[[menu.main]]
-    name = "Speakers"
-    url = "#"
-    identifier = "speakers"
-    weight = 200
-
-[[menu.main]]
-    name = "Schedule"
-    url = "#"
-    identifier = "schedule"
-    weight = 300
-
-[[menu.main]]
-    name = "Sponsors"
-    url = "#"
-    identifier = "sponsors"
-    weight = 400
-
-[[menu.main]]
-    name = "COC"
-    url = "/coc"
-    identifier = "coc"
-    weight = 500
+#[[menu.main]]
+#    name = "Speakers"
+#    url = "#"
+#    identifier = "speakers"
+#    weight = 200
+#
+#[[menu.main]]
+#    name = "Schedule"
+#    url = "#"
+#    identifier = "schedule"
+#    weight = 300
+#
+#[[menu.main]]
+#    name = "Sponsors"
+#    url = "#"
+#    identifier = "sponsors"
+#    weight = 400
+#
+#[[menu.main]]
+#    name = "COC"
+#    url = "/coc"
+#    identifier = "coc"
+#    weight = 500
 
 ## Social Accounts
 [params.social]
-	twitter = ""
-    github = ""
-    email = "contact@friendsofgo.tech"
+	twitter = "https://twitter.com/friendsofgo"
