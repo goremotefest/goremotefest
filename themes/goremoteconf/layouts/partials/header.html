@@ -3,6 +3,14 @@
         <div id="primary-menu-trigger">
             <i class="icon-reorder"></i>
         </div>
+        <div id="logo">
+            <a href="/" class="standard-logo" data-dark-logo="{{ "images/logo-mobile.png" | relURL }}">
+                <img src="{{ "images/logo-mobile.png" | relURL }}" alt="FriendsofGo" />
+            </a>
+            <a href="/" class="retina-logo" data-dark-logo="{{ "images/logo-mobile.png" | relURL }}">
+                <img src="{{ "images/logo-mobile.png" | relURL }}" alt="FriendsofGo" />
+            </a>
+        </div>
         <nav id="primary-menu">
             <ul class="sf-js-enabled" style="touch-action: pan-y;">
                 {{ $current := . }}

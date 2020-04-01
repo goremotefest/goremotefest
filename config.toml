@@ -17,11 +17,11 @@ sponsors = false
 [params]
     defaultDescription = "Put something interesting here :)"
 
-[[menu.main]]
-    name = "Home"
-    url = "#"
-    identifier = "home"
-    weight = 100
+#[[menu.main]]
+#    name = "Home"
+#    url = "#"
+#    identifier = "home"
+#    weight = 100
 
 #[[menu.main]]
 #    name = "Speakers"
