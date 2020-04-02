@@ -15,7 +15,7 @@ sponsors = false
   priority = 0.5
 
 [params]
-    defaultDescription = "Put something interesting here :)"
+    defaultDescription = "Go Remote Fest, is a remote conference focused on Go. Join us for one sunday of great Go content with awesomes speakers from all world from your own Home."
 
 #[[menu.main]]
 #    name = "Home"
