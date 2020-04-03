@@ -94,8 +94,17 @@ section.schedule li:last-child:before {
     height: 100%;
 }
 
+#add-calendar {
+    margin-top:50%;
+}
+
 @media screen and (max-width: 767px) {
     section.schedule li .schedule-talk img {
         display: none;
     }
+
+    #add-calendar {
+        margin-top:auto;
+    }
+
 }
