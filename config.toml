@@ -17,35 +17,41 @@ sponsors = false
 [params]
     defaultDescription = "Go Remote Fest, is a remote conference focused on Go. Join us for one sunday of great Go content with awesomes speakers from all world from your own Home."
 
-#[[menu.main]]
-#    name = "Home"
-#    url = "#"
-#    identifier = "home"
-#    weight = 100
+[[menu.main]]
+    name = "Home"
+    url = "#"
+    identifier = "home"
+    weight = 100
 
-#[[menu.main]]
-#    name = "Speakers"
-#    url = "#"
-#    identifier = "speakers"
-#    weight = 200
-#
+[[menu.main]]
+    name = "Speakers"
+    url = "#"
+    identifier = "speakers"
+    weight = 200
+
 #[[menu.main]]
 #    name = "Schedule"
 #    url = "#"
 #    identifier = "schedule"
 #    weight = 300
 #
-#[[menu.main]]
-#    name = "Sponsors"
-#    url = "#"
-#    identifier = "sponsors"
-#    weight = 400
-#
+[[menu.main]]
+    name = "Sponsors"
+    url = "#"
+    identifier = "sponsors"
+    weight = 400
+
+[[menu.main]]
+    name = "Organizers"
+    url = "#"
+    identifier = "organizers"
+    weight = 500
+
 #[[menu.main]]
 #    name = "COC"
 #    url = "/coc"
 #    identifier = "coc"
-#    weight = 500
+#    weight = 600
 
 ## Social Accounts
 [params.social]

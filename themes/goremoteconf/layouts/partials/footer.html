@@ -1,15 +1,9 @@
 <div id="copyrights">
     <div class="container clearfix">
         <div class="col_half">
-                &copy; {{ now.Format "2006"}} Go Remote Fest<br />Made with <span
-                class="heart">❤</span> in Barcelona
+                &copy; {{ now.Format "2006"}} Go Remote Fest
         </div>
         <div class="col_half col_last tright">
-            <div class="copyrights-menu copyright-links fright clearfix">
-                {{ range .Site.Menus.main }}
-                <a href="{{ .URL }}" title="{{ .Name }}" data-href="#section-{{ .Identifier }}}">{{ .Name }}</a>
-                {{end}}
-            </div>
             <div class="fright clearsimple">
                 <a href="https://twitter.com/{{ .Site.Params.Social.Twitter }}" target="_blank"
                     class="social-icon si-small si-borderless nobottommargin si-twitter">
