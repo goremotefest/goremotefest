@@ -109,6 +109,10 @@ section.schedule li:last-child:before {
 .button-border.button-yellow:hover,
 .button-border.button-yellow.button-fill:before { background-color: #f9bf56 !important; }
 
+.c4p {
+    margin-top: 25%;
+}
+
 @media screen and (max-width: 767px) {
     section.schedule li .schedule-talk img {
         display: none;
@@ -116,6 +120,9 @@ section.schedule li:last-child:before {
 
     #add-calendar {
         margin-top:auto;
+    }
+    .c4p {
+        margin-top: auto;
     }
 
 }
