@@ -44,7 +44,7 @@ date: 2020-03-24T09:30:41+02:00
                 <span>C4P are open until 17th of April, 23:59 GMT+2</span>
             </div>
             <a href="https://sessionize.com/goremotefest/" rel="nofollow" target="_blank"
-               class="button button-desc button-dark center"> Interested in giving a
+               class="button button-desc button-dark center" id="apply"> Interested in giving a
                 talk?<span>Submit your Paper!</span></a>
         </div>
         <div class="col_half col_last">
@@ -125,5 +125,8 @@ date: 2020-03-24T09:30:41+02:00
 <script>
     document.getElementById('add-calendar').addEventListener('click', function (e) {
         newrelic.addPageAction('AddToCalendar');
-    })
+    });
+    document.getElementById('apply').addEventListener('click', function (e) {
+        newrelic.addPageAction('C4P');
+    });
 </script>
