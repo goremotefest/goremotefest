@@ -1,7 +1,7 @@
-name: "Gopher"
-image: "images/tbd-speaker.png"
-company: "Friends of Go"
-twitter: "https://twitter.com/friendsofgotech"
-linkedin: "https://linkedin.com"
-content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo purus, volutpat non facilisis eu, interdum eu augue. Etiam ac urna sit amet erat ultrices suscipit at vel odio. Integer pretium quam lorem. Proin quam sem, sodales a justo vel, faucibus accumsan odio. Nulla bibendum leo dolor, in pretium leo auctor eget. Proin nec ullamcorper justo, nec pulvinar dolor."
-enabled: false
+name: "Daniel Martí"
+image: "images/speakers/daniel-marti.png"
+company: "Engineer, Go contributor"
+twitter: "https://twitter.com/mvdan_"
+linkedin: ""
+content: "Fell in love with Go, and have been contributing to it since. Easily distracted by interesting ideas, especially those that allow removing code."
+enabled: true
