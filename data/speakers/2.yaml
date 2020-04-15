@@ -1,7 +1,7 @@
-name: "Daniel Martí"
-image: "images/speakers/daniel-marti.png"
-company: "Engineer, Go contributor"
-twitter: "https://twitter.com/mvdan_"
+name: "Dave Cheney"
+image: "images/speakers/cheney.png"
+company: "Staff Engineer at GitHub"
+twitter: "https://twitter.com/davecheney"
 linkedin: ""
-content: "Fell in love with Go, and have been contributing to it since. Easily distracted by interesting ideas, especially those that allow removing code."
+content: "David is an open source contributor and project member for the Go programming language. David is a well-respected voice within the tech community, speaking on a variety of topics such as software design, performance, and the Go programming language.<br/>In 2009, while idly perusing Google Reader (we’ll never forget!) he ran across the announcement of a new open source language, Go. It was love at first sight. From that point David’s passion has taken him around the world writing, teaching, and speaking about Go."
 enabled: true
