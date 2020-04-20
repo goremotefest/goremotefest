@@ -1,7 +1,7 @@
-name: "Gopher"
-image: "images/tbd-speaker.png"
-company: "Friends of Go"
-twitter: "https://twitter.com/friendsofgotech"
-linkedin: "https://linkedin.com"
-content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo purus, volutpat non facilisis eu, interdum eu augue. Etiam ac urna sit amet erat ultrices suscipit at vel odio. Integer pretium quam lorem. Proin quam sem, sodales a justo vel, faucibus accumsan odio. Nulla bibendum leo dolor, in pretium leo auctor eget. Proin nec ullamcorper justo, nec pulvinar dolor."
-enabled: false
+name: "Ellen Körbes"
+image: "images/speakers/ellen.png"
+company: "Developer Relations at Tilt"
+twitter: "https://twitter.com/ellenkorbes"
+linkedin: ""
+content: "Ellen ran DevRel at both Tilt and Garden—two of the very few companies 100% focused on the development experience side of Kubernetes. They got their start building Kubernetes CLI tooling under SIG-CLI. They've since spoken about Go and Kubernetes at many world-famous events."
+enabled: true
