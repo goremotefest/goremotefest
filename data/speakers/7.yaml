@@ -1,7 +1,7 @@
-name: "Gopher"
-image: "images/tbd-speaker.png"
-company: "Friends of Go"
-twitter: "https://twitter.com/friendsofgotech"
-linkedin: "https://linkedin.com"
-content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo purus, volutpat non facilisis eu, interdum eu augue. Etiam ac urna sit amet erat ultrices suscipit at vel odio. Integer pretium quam lorem. Proin quam sem, sodales a justo vel, faucibus accumsan odio. Nulla bibendum leo dolor, in pretium leo auctor eget. Proin nec ullamcorper justo, nec pulvinar dolor."
-enabled: false
+name: "Kyle Redelinghuys"
+image: "images/speakers/kyle.png"
+company: "Entrepreneur, builder"
+twitter: "https://twitter.com/ksredelinghuys"
+linkedin: ""
+content: "An entrepreneur and recipient of the Tier 1 Exceptional Talent Visa, Kyle has built systems for Visa Inc, core banking platforms and successful API SaaS solutions."
+enabled: true

@@ -1,7 +1,7 @@
-name: "Gopher"
-image: "images/tbd-speaker.png"
-company: "Friends of Go"
-twitter: "https://twitter.com/friendsofgotech"
-linkedin: "https://linkedin.com"
-content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo purus, volutpat non facilisis eu, interdum eu augue. Etiam ac urna sit amet erat ultrices suscipit at vel odio. Integer pretium quam lorem. Proin quam sem, sodales a justo vel, faucibus accumsan odio. Nulla bibendum leo dolor, in pretium leo auctor eget. Proin nec ullamcorper justo, nec pulvinar dolor."
-enabled: false
+name: "Robert Laszczak"
+image: "images/speakers/robert.png"
+company: "Karho & Three Dots Labs"
+twitter: "https://twitter.com/roblaszczak"
+linkedin: ""
+content: "I am working as tech lead in Karhoo, where I'm helping to build scaleable event-driven systems. I believe in the pragmatic use of techniques like DDD or Event-storming in building complicated systems."
+enabled: true

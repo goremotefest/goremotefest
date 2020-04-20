@@ -1,7 +1,7 @@
-name: "Gopher"
-image: "images/tbd-speaker.png"
-company: "Friends of Go"
-twitter: "https://twitter.com/friendsofgotech"
-linkedin: "https://linkedin.com"
-content: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam leo purus, volutpat non facilisis eu, interdum eu augue. Etiam ac urna sit amet erat ultrices suscipit at vel odio. Integer pretium quam lorem. Proin quam sem, sodales a justo vel, faucibus accumsan odio. Nulla bibendum leo dolor, in pretium leo auctor eget. Proin nec ullamcorper justo, nec pulvinar dolor."
-enabled: false
+name: "Nathan Davies"
+image: "images/speakers/nathan.png"
+company: "Senior Engineer at Turnitin"
+twitter: "https://twitter.com/nathj07"
+linkedin: ""
+content: "Husband to 1, father to two, rider of bikes, and climber of hills. I love software development, and I love Go and the community that surrounds it. I've been developing software since we shipped CDs. When i'm not writing code I'm in the great outdoors wither hiking or mountain biking."
+enabled: true

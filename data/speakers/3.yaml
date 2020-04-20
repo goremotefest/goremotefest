@@ -1,7 +1,11 @@
-name: "Daniel Martí"
-image: "images/speakers/daniel-marti.png"
-company: "Engineer, Go contributor"
-twitter: "https://twitter.com/mvdan_"
+name: "Ole Bulbuk"
+image: "images/speakers/ole.png"
+company: "Senior Go engineer at solarisBank"
+twitter: "https://twitter.com/flowdev_org"
 linkedin: ""
-content: "Fell in love with Go, and have been contributing to it since. Easily distracted by interesting ideas, especially those that allow removing code."
+content: "Ole is a back-end engineer since the nineties.<br/>
+          He has been working for many companies big and small and seen many projects fail or succeed.<br/>
+          Currently he loves to be part of the vibrant startup life in Berlin while working on a Go back-end for solarisBank.
+          <br/><br/>
+          In his spare time he is co-organising the Berlin chapter of GDG Golang, develops open source software and enjoys time with his family."
 enabled: true
