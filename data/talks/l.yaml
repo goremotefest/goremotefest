@@ -1,6 +1,6 @@
 type: "talk"
-hour: 14:45
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 14:10
+speaker: "Mat Ryer"
+image: "images/speakers/matryer.png"
+title: "Defer"
+talk: "Geek out with Mat Ryer on Go's best feature: defer. Mat tells you everything you always wanted to know about defer. From what it is, how it's useful, common gotchas, down to how it really works under the hood."

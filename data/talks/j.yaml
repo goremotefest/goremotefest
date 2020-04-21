@@ -1,6 +1,6 @@
 type: "talk"
-hour: 14:15
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 13:35
+speaker: "Nathan Davies"
+image: "images/speakers/nathan.png"
+title: "When to choose a mo*@!#th?"
+talk: "Microservices are the big buzzword today and can seem like an obvious architectural choice. However, when microservice architectures grow unchecked, fragmentation begins to occur. I will show that a reduced, and simplified architecture, using Go, can provide elegant, easy to reason about systems."

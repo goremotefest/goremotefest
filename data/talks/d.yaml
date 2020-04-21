@@ -1,6 +1,6 @@
 type: "talk"
 hour: 11:15
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+speaker: "Ellen Körbes"
+image: "images/speakers/ellen.png"
+title: "The Quest for the Fastest Deployment Time"
+talk: "When a developer changes a line of code, how long does it take for that code to run in their development cluster? As an expert in Kubernetes development tooling, I've seen the answers to that question vary between 1 second and… infinity. So how do you get your team’s code to stay on the 1 second side?"

@@ -29,12 +29,12 @@ sponsors = false
     identifier = "speakers"
     weight = 200
 
-#[[menu.main]]
-#    name = "Schedule"
-#    url = "#"
-#    identifier = "schedule"
-#    weight = 300
-#
+[[menu.main]]
+    name = "Schedule"
+    url = "#"
+    identifier = "schedule"
+    weight = 300
+
 [[menu.main]]
     name = "Sponsors"
     url = "#"

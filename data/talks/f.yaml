@@ -1,6 +1,8 @@
 type: "talk"
-hour: 11:45
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 11:50
+speaker: "Ole Bulbuk"
+image: "images/speakers/ole.png"
+title: "Tales From Event Sourcing Pastures"
+talk: "In this talk I will show you my journey with event sourcing and CQRS over the past seven years with results from being completely thrilled to wanting to fight it with every cell of my body.
+        <br/><br/>
+       On the way we will find out what exactly gives CQRS its power, how to avoid most of its downsides and what alternatives exist.."

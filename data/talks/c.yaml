@@ -1,6 +1,6 @@
 type: "talk"
-hour: 10:45
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 10:40
+speaker: "Kyle Redelinghuys"
+image: "images/speakers/kyle.png"
+title: "Building the COVID19 API"
+talk: "Detailing the process of building the COVID19 API (https://covid19api.com) and scaling to 19 million API requests in the first 5 weeks."

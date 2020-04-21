@@ -1,6 +1,7 @@
 type: "talk"
-hour: 12:45
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 13:00
+speaker: "Robert Laszczak"
+image: "images/speakers/robert.png"
+title: "Let's build event-driven application in 15 minutes"
+talk: "Building event-driven applications should be as easy as building HTTP API - this was our goal when we were starting to work on Watermill.<br/><br/>
+       During the talk, I would like to tell you the story of how we created one of the most popular libraries for building event-driven applications in Go. I will not end with the theory - I will do a quick live coding to show you how to use Watermill. The application will be independent of any Pub/Sub implementation and will be able to work with RabbitMQ, Kafka or even MySQL without many changes."

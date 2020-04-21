@@ -1,6 +1,8 @@
 type: "talk"
-hour: 10:15
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 10:05
+speaker: "Dave Cheney"
+image: "images/speakers/cheney.png"
+title: "Maps in detail"
+talk: "Go programmers use maps day in and day out without a lot of fanfare. Like most well designed things, maps just work, and so most of us general don't give a second thought. But have you ever sat down and wondered +how+ maps actually work in Go? How does one type, written in Go, work for almost any key and value +without+ generics?
+        <br/><br/>
+       In this talk you'll learn about the design decisions that lead to Go's map implementation, we'll compare and contrast Go's maps to implementations in languages like Java and C++, and learn how the runtime implements a generic map type +without+ generics."

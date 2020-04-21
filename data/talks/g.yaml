@@ -1,6 +1,6 @@
 type: "talk"
-hour: 12:15
-speaker: "Gopher"
-image: "images/tbd-talk.png"
-title: "Talk"
-talk: "Pending."
+hour: 12:25
+speaker: "Daniel Martí"
+image: "images/speakers/daniel-marti.png"
+title: "What's coming in Go 1.15"
+talk: "A fast-paced look at what major features and changes are coming in the next Go release, due the first week of August."

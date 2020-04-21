@@ -31,7 +31,7 @@ section.schedule li:before {
     content: " ";
     width: 1.3rem;
     height: 1.3rem;
-    background: #F9F9F9 url("/images/circle-gray.png");
+    background: #ffffff url("/images/circle-gray.png");
     left: 0;
     top: 0;
 }
@@ -75,7 +75,6 @@ section.schedule li .schedule-talk img {
 section.schedule li .schedule-talk .schedule-name {
     font-weight: 700;
     margin-bottom: 0.5rem;
-    margin-top: -0.5rem;
 }
 
 section.schedule li .schedule-closes {
@@ -84,6 +83,10 @@ section.schedule li .schedule-closes {
     margin-bottom: 3rem;
     padding-left: 2.3rem;
     position: relative;
+}
+
+section.schedule p.schedule-content {
+    font-size: 0.85rem;
 }
 
 section.schedule li:first-child:before, section.schedule li:last-child:before, section.schedule li.organization:before {
