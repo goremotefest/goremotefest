@@ -97,6 +97,10 @@ section.schedule li:last-child:before {
     height: 100%;
 }
 
+section.schedule .schedule-speaker{
+    display:block;
+    font-size:0.8rem;
+}
 #add-calendar {
     margin-top:50%;
 }
@@ -122,10 +126,14 @@ section.schedule li:last-child:before {
     }
 
     #add-calendar {
-        margin-top:auto;
+        margin-top: auto;
     }
+
     .c4p {
         margin-top: auto;
     }
 
+    section.schedule li .schedule-talk {
+        width: 100%;
+    }
 }
