@@ -1,7 +1,11 @@
-{{ range .Site.Data.sponsors }}
-    <li>
-        <a href="{{ .link }}" rel="nofollow" target="_blank">
-            <img src="{{ .image }}" alt="friendsofgo">
-        </a>
-    </li>
+{{ range $key, $value := .Site.Data.sponsors }}
+    {{ if eq $key $.Page.Params.edition }}
+        {{ range $value }}
+            <li>
+                <a href="{{ .link }}" rel="nofollow" target="_blank">
+                    <img src="{{ .image | relURL }}" alt="friendsofgo">
+                </a>
+            </li>
+        {{ end }}
+    {{ end }}
 {{ end }}

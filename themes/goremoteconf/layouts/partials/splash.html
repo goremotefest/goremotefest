@@ -1,0 +1,9 @@
+{{ if $.Page.Params.splash }}
+<section id="splash-xl" class="slider-element slider-parallax slider-parallax-visible" data-height-xl="500"
+         data-height-lg="400" data-height-md="300" data-height-sm="250" data-height-xs="200"
+         style="background: url('/images/splash-{{ $.Page.Params.edition }}.png') 0% 0% / cover no-repeat; background-position:center;">
+</section>
+<section id="splash-s" class="nobottommargin nobottompadding" data-height-lg="492" data-height="492" data-height-sm="492" data-height-xs="400"
+         style="background: url('/images/splash-mobile-{{ $.Page.Params.edition }}.png') no-repeat; ">
+</section>
+{{ end }}

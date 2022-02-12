@@ -19,7 +19,7 @@ sponsors = false
 
 [[menu.main]]
     name = "Home"
-    url = "#"
+    url = "/"
     identifier = "home"
     weight = 100
 
@@ -46,6 +46,12 @@ sponsors = false
     url = "#"
     identifier = "organizers"
     weight = 500
+
+[[menu.main]]
+    name = "2020"
+    url = "/2020"
+    identifier = "2020"
+    weight = 600
 
 #[[menu.main]]
 #    name = "COC"
