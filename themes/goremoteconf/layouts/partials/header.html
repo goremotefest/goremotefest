@@ -17,7 +17,7 @@
                 {{ $currentParent := $current.Param "parent_page" }}
                 {{ range .Site.Menus.main }}
                 <li>
-                    <a href="{{ .URL }}" title="{{ .Name }}" data-href="#section-{{ .Identifier }}">{{ .Name }}</a>
+                    <a href="{{ .URL }}" title="{{ .Name }}" {{ if eq .URL "#" }} data-href="#section-{{ .Identifier }}" {{ end }}>{{ .Name }}</a>
                 </li>
                 {{ end }}
             </ul>

@@ -1,31 +1,35 @@
-{{ range .Site.Data.speakers }}
-    {{ if .enabled }}
-        <div class="col-lg-3 col-md-6 bottommargin">
-            <div class="team">
-                <div class="team-image">
-                    <img src="{{ .image }}" alt="John Doe">
-                </div>
-                <div class="team-desc">
-                    <div class="team-title"><h4>{{ .name }}</h4><span>{{ .company }}</span></div>
-                    <div class="team-content">
-                        <p>
-                            {{ .content | safeHTML }}
-                        </p>
+{{ range $key, $value := .Site.Data.speakers }}
+    {{ if eq $key $.Page.Params.edition }}
+        {{ range $value }}
+            {{ if .enabled }}
+                <div class="col-lg-3 col-md-6 bottommargin">
+                    <div class="team">
+                        <div class="team-image">
+                            <img src="{{ .image | relURL }}" alt="John Doe">
+                        </div>
+                        <div class="team-desc">
+                            <div class="team-title"><h4>{{ .name }}</h4><span>{{ .company }}</span></div>
+                            <div class="team-content">
+                                <p>
+                                    {{ .content | safeHTML }}
+                                </p>
+                            </div>
+                            {{ if ne .twitter "" }}
+                            <a href="{{ .twitter }}" rel="nofollow" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                            {{ end }}
+                            {{ if ne .linkedin "" }}
+                                <a href="{{ .linkedin }}" rel="nofollow" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
+                                    <i class="icon-linkedin"></i>
+                                    <i class="icon-linkedin"></i>
+                                </a>
+                            {{ end }}
+                        </div>
                     </div>
-                    {{ if ne .twitter "" }}
-                    <a href="{{ .twitter }}" rel="nofollow" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                        <i class="icon-twitter"></i>
-                        <i class="icon-twitter"></i>
-                    </a>
-                    {{ end }}
-                    {{ if ne .linkedin "" }}
-                        <a href="{{ .linkedin }}" rel="nofollow" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-linkedin">
-                            <i class="icon-linkedin"></i>
-                            <i class="icon-linkedin"></i>
-                        </a>
-                    {{ end }}
                 </div>
-            </div>
-        </div>
-    {{ end }}
+            {{ end }}
+        {{ end }}
+    {{end}}
 {{ end }}

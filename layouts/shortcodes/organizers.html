@@ -1,18 +1,22 @@
-{{ range $index, $element := .Site.Data.organizers }}
-    <div class="col_one_third {{ if mod $index 3 | eq 0 }}col_last{{ end }}">
-        <div class="team">
-            <div class="team-image">
-                <img src="{{ $element.photo }}" alt="John Doe">
+{{ range $key, $value := .Site.Data.organizers }}
+    {{ if eq $key $.Page.Params.edition }}
+        {{ range $index, $element := $value }}
+            <div class="col_one_third {{ if mod $index 3 | eq 0 }}col_last{{ end }}">
+                <div class="team">
+                    <div class="team-image">
+                        <img src="{{ .photo | relURL }}" alt="John Doe">
+                    </div>
+                    <div class="team-desc">
+                        <div class="team-title"><h4>{{ .name }}</h4></div>
+                        {{ if ne .twitter "" }}
+                            <a href="https://twitter.com/{{ .twitter }}" rel="nofollow" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-twitter">
+                                <i class="icon-twitter"></i>
+                                <i class="icon-twitter"></i>
+                            </a>
+                        {{ end }}
+                    </div>
+                </div>
             </div>
-            <div class="team-desc">
-                <div class="team-title"><h4>{{ $element.name }}</h4></div>
-                {{ if ne .twitter "" }}
-                    <a href="https://twitter.com/{{  $element.twitter }}" rel="nofollow" target="_blank" class="social-icon inline-block si-small si-light si-rounded si-twitter">
-                        <i class="icon-twitter"></i>
-                        <i class="icon-twitter"></i>
-                    </a>
-                {{ end }}
-            </div>
-        </div>
-    </div>
+        {{ end }}
+    {{ end }}
 {{ end }}
